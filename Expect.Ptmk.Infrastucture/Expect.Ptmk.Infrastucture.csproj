@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.1.1" />
+    <PackageReference Include="Z.EntityFramework.Extensions" Version="7.100.0.2" />
+    <PackageReference Include="Z.EntityFramework.Extensions.EFCore" Version="7.100.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Expect.Ptmk.Data\Expect.Ptmk.Data.csproj" />
+    <ProjectReference Include="..\Expect.Ptmk.Domain\Expect.Ptmk.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
