@@ -33,6 +33,13 @@ jobs:
         
     - uses: actions/checkout@v3
 
-
     - name: Run exercsie 1
       run: make run-1
+    - name: Run exercise 2
+      run: make run-2
+    - name: Run exercise 3
+      run: make run-3
+    - name: Run exercise 4
+      run: make run-4
+    - name: Run exercise 5
+      run: make run-5
