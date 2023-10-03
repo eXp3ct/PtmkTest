@@ -7,7 +7,6 @@ stopdb:
 
 build:
 	dotnet build
-	cls
 
 run-1: build
 	cd Expect.Ptmk.Main && \
